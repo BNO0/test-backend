@@ -44,6 +44,7 @@ public class LoginController {
         HttpHeaders headers = new HttpHeaders();
         return new ResponseEntity<>(headers, HttpStatus.OK);
     }
+    
     @GetMapping("testtest")
     public String testtest(){
         log.info("GET - /api/auth/testtest");
