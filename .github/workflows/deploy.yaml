@@ -38,9 +38,9 @@ jobs:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           # AWS Elastic Beanstalk 환경 application 명
-          application_name: sep-test-back
+          application_name: sep-test-backend2
           # AWS Elastic Beanstalk 환경 명
-          environment_name: Sep-test-back-env
+          environment_name: Sep-test-backend2-env
           # AWS S3 버킷 명
           existing_bucket_name: elasticbeanstalk-us-east-2-646588460992
           region: us-east-2
