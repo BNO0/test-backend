@@ -44,6 +44,11 @@ public class LoginController {
         HttpHeaders headers = new HttpHeaders();
         return new ResponseEntity<>(headers, HttpStatus.OK);
     }
+    @GetMapping("testtest")
+    public String testtest(){
+        log.info("GET - /api/auth/testtest");
+        return "redirect:https://naver.com";
+    }
     @GetMapping("/signup")
     public String joinPage() {
         log.info("GET - /api/auth/signup");
