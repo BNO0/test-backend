@@ -34,8 +34,8 @@ import java.util.List;
 @RequiredArgsConstructor
 @Slf4j
 public class SecurityConfig {
-    public static final String DOMAIN = "http://localhost:3000"; // 로컬용
-//    public static final String DOMAIN = "[도메인]"; // 배포용
+    // public static final String DOMAIN = "http://localhost:3000"; // 로컬용
+   public static final String DOMAIN = "Sep-test-env.eba-svqgunqn.us-east-2.elasticbeanstalk.com"; // 배포용
     public static final String HOME = DOMAIN;
     public static final String LOGIN = DOMAIN + "/login";
     public static final String SIGNUP = DOMAIN + "/signup";
